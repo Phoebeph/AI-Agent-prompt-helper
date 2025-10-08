@@ -1,3 +1,18 @@
+It is a demo for multi-models comparsion for user's prompts.
+
+The front page is listed below.
+
+<img width="673" height="468" alt="截屏2025-10-08 16 57 09" src="https://github.com/user-attachments/assets/df872631-3591-4c30-b128-0daeaf3d0f0e" />
+
+When user inputs various prompts, chooses different LLMs and clicks generate button, the right panel shows the results which displays comparsion like cost, response time, output results and etc between LLMs, listed below.
+
+<img width="663" height="544" alt="截屏2025-10-08 17 02 37" src="https://github.com/user-attachments/assets/90a3a7a0-680e-45bc-9e3c-3ca77fa084b4" />
+
+The comparsion results are displayed by two methods Tag view and Comparsion view. Here is Comparsion view listed below.
+
+<img width="679" height="524" alt="截屏2025-10-08 17 02 50" src="https://github.com/user-attachments/assets/395a2ac2-22c7-4ca0-a0b5-cc7e986479f2" />
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

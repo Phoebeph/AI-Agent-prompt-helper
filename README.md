@@ -2,7 +2,7 @@ It is a demo for multi-models comparsion for user's prompts.
 
 The front page is listed below.
 
-<img width="673" height="468" alt="截屏2025-10-08 16 57 09" src="https://github.com/user-attachments/assets/df872631-3591-4c30-b128-0daeaf3d0f0e" />
+<img width="673" height="468" style="border: 3px solid black; border-radius: 6px;" alt="截屏2025-10-08 16 57 09" src="https://github.com/user-attachments/assets/df872631-3591-4c30-b128-0daeaf3d0f0e" />
 
 When user inputs various prompts, chooses different LLMs and clicks generate button, the right panel shows the results which displays comparsion like cost, response time, output results and etc between LLMs, listed below.
 

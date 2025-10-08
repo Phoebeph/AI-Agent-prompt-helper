@@ -1,0 +1,23 @@
+.top-header-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 10px 100px;
+  border-bottom: 1px solid black;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.header-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.header-description {
+  font-size: 14px;
+  color: gray;
+}

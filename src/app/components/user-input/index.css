@@ -1,0 +1,124 @@
+.input-wrapper {
+  margin-top: 20px;
+  margin-left: 100px;
+  width: 30%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.generate-btn,
+.prompt-input-container,
+.module-select-container,
+.input-info-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flexbox;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.input-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-header .title,
+.module-select-container .title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.input-header .add-prompt-btn {
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.prompt-input-container .prompt-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.prompt-input .prompt-index {
+  border: 1px solid lightblue;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prompt-input .input-area {
+  min-height: 60px;
+  height: fit-content;
+  resize: none;
+  display: flex;
+  width: 300px;
+  padding: 10px;
+}
+
+.prompt-input .delete {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+}
+
+.prompt-input .delete:hover {
+  border: 1px solid gray;
+  background-color: #ccc;
+}
+
+.module-select-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.module-select-container .select-wrapper {
+  display: flex;
+  margin-top: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 5px;
+}
+
+.generate-btn {
+  background-color: rgba(0, 0, 255, 0.509);
+  color: #fff;
+  cursor: pointer;
+}
+
+.generate-btn:hover {
+  background-color: rgba(0, 0, 255, 0.683);
+}
+
+.input-info-container {
+  background-color: rgba(0, 0, 255, 0.208);
+  gap: 5px;
+}
+
+.input-info-container .valid-prompt,
+.input-info-container .models-num,
+.input-info-container .results-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: rgb(35, 35, 214);
+}
+
+.input-info-container .valid-prompt,
+.input-info-container .models-num {
+  margin-bottom: 5px;
+}
